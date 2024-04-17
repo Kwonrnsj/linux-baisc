@@ -1,5 +1,4 @@
 #!/bin/sh
 touch notes.txt
-myvar ="Hello, Linux!"
-echo $myvar!
+echo "Hello, Linux!" > notes.txt
 cat notes.txt

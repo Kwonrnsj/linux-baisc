@@ -1,12 +1,6 @@
 #!/bin/sh
 touch notes.txt
-
-LineA="Line 1"
-LineB="Line 2"
-LineC="Line 3"
-echo $LineA
-echo $LineB
-echo $LineC
-
+echo "Line 1" > notes.txt
+echo "Line 2" >> notes.txt
+echo "Line 3" >> notes.txt
 cat notes.txt
-rm notes.txt

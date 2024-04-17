@@ -1,6 +1,4 @@
 #!/bin/sh
 touch multiLine.txt
-Line 1\n
-Line 2\n
-Line 3
-head -3 /etc/systemd/networkd.conf
+echo -e "Line 1\nLine 2\nLine 3\nLine 4\nLine 5\nLine 6\nLine 7" > multiLine.txt
+head -n 3 multiLine.txt

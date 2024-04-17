@@ -1,4 +1,4 @@
 #!/bin/sh
-ls -l
+ls
 sleep 3
 clean
